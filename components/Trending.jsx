@@ -1,16 +1,14 @@
-import {
-  View,
-  Text,
-  Image,
-  FlatList,
-  TouchableOpacity,
-  ImageBackground,
-} from "react-native";
 import React, { useState } from "react";
+import {
+  FlatList,
+  Image,
+  ImageBackground,
+  TouchableOpacity
+} from "react-native";
 import * as Animatable from "react-native-animatable";
 
+import { ResizeMode, Video } from "expo-av";
 import { icons } from "../constants";
-import { Video, ResizeMode } from "expo-av";
 
 const zoomIn = {
   0: {
